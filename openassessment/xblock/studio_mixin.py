@@ -55,33 +55,34 @@ class StudioMixin(object):
         Returns:
             dict with keys 'success' (bool) and 'msg' (str)
         """
-        missing_keys = list({'rubric', 'settings', 'prompt'} - set(data.keys()))
+        missing_keys = list(
+            {'rubric', 'prompt', 'title', 'assessments', 'submission_start', 'submission_due'} - set(data.keys())
+        )
         if missing_keys:
             logger.warn(
-                'Must specify the following keys in request JSON dict: {}'.format(missing_keys)
+                'Must specify the following missing keys in request JSON dict: {}'.format(missing_keys)
             )
             return {'success': False, 'msg': _('Error updating XBlock configuration')}
-        settings = data['settings']
+
         try:
-            rubric = xml.parse_rubric_xml_str(data['rubric'])
-            assessments = xml.parse_assessments_xml_str(settings['assessments'])
-            submission_due = xml.parse_date(settings["submission_due"])
-            submission_start = xml.parse_date(settings["submission_start"])
+            rubric = xml.parse_rubric_xml_str(data["rubric"])
+            submission_due = xml.parse_date(data["submission_due"])
+            submission_start = xml.parse_date(data["submission_start"])
         except xml.UpdateFromXmlError as ex:
             return {'success': False, 'msg': _('An error occurred while saving: {error}').format(error=ex)}
 
         xblock_validator = validator(self)
-        success, msg = xblock_validator(rubric, {'due': submission_due, 'start': submission_start}, assessments)
+        success, msg = xblock_validator(rubric, {'due': submission_due, 'start': submission_start}, data['assessments'])
         if not success:
             return {'success': False, 'msg': _('Validation error: {error}').format(error=msg)}
 
         self.update(
             rubric['criteria'],
             rubric['feedbackprompt'],
-            assessments,
+            data['assessments'],
             submission_due,
             submission_start,
-            settings["title"],
+            data["title"],
             data["prompt"]
         )
         return {'success': True, 'msg': 'Successfully updated OpenAssessment XBlock'}
@@ -105,7 +106,6 @@ class StudioMixin(object):
 
         """
         try:
-            assessments = xml.serialize_assessments_to_xml_str(self)
             rubric = xml.serialize_rubric_to_xml_str(self)
         # We do not expect serialization to raise an exception,
         # but if it does, handle it gracefully.
@@ -122,19 +122,15 @@ class StudioMixin(object):
 
         submission_start = self.submission_start if self.submission_start else ''
 
-        settings = {
-            'submission_due': submission_due,
-            'submission_start': submission_start,
-            'title': self.title,
-            'assessments': assessments
-        }
-
         return {
             'success': True,
             'msg': '',
             'rubric': rubric,
             'prompt': self.prompt,
-            'settings': settings
+            'submission_due': submission_due,
+            'submission_start': submission_start,
+            'title': self.title,
+            'assessments': self.rubric_assessments
         }
 
     @XBlock.json_handler
@@ -157,3 +153,4 @@ class StudioMixin(object):
             'success': True, 'msg': u'',
             'is_released': self.is_released()
         }
+

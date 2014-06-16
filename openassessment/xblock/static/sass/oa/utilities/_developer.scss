@@ -215,14 +215,35 @@
   }
 
   #oa-settings-editor-text-fields {
-    float: left;
-    width: 30%;
   }
 
   #oa-settings-assessments{
-    float: right;
-    width: 70%;
     height: 100%;
+  }
+
+  .openassessment-number-field{
+    width: 30px;
+  }
+
+  .openassessment-date-field{
+    width: 130px;
+  }
+
+  .openassessment-number-field{
+
+
+  }
+
+  .openassessment-description{
+
+  }
+
+  .openassessment-inclusion-wrapper{
+    background-color: $gray-d2;
+    input[type="checkbox"] {
+    }
+    padding: ($baseline-v/8) ($baseline-h/8);
+    margin: ($baseline-v/8) ($baseline-h/8);
   }
 
   .xblock-actions {
@@ -236,3 +257,4 @@
 .modal-content {
   height: 500px !important;
 }
+

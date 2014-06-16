@@ -4,7 +4,7 @@
     <div class="openassessment-editor-content-and-tabs">
 
         <div class="openassessment-editor-header">
-            <h6 id="oa-editor-window-title" class="title modal-window-title" >{% trans "Editing: Open Assessment" %}</h6>
+            <h6 id="oa-editor-window-title" class="title modal-window-title" >{% trans "Component: Open Response Problem" %}</h6>
             <ul class="editor-modes action-list action-modes editor-tabs">
                 <li class="view-button oa-editor-tab"><a href="#oa-settings-editor-wrapper">{% trans "Settings" %}</a></li>
                 <li class="view-button oa-editor-tab"><a href="#oa-rubric-editor-wrapper">{% trans "Rubric" %}</a></li>
@@ -25,18 +25,81 @@
         </div>
 
         <div id="oa-settings-editor-wrapper" class="oa-editor-content-wrapper">
-            <div id="oa-settings-editor-text-fields">
-                <h2>{% trans "Settings Editor" %}</h2>
-                <h2>{% trans "Title:" %}</h2>
-                <input type="text" name="title" class="openassessment-title-editor">
-                <h2>{% trans "Submission Start Date:" %}</h2>
-                <input type="text" name="start_date" class="openassessment-submission-start-editor">
-                <h2>{% trans "Submission Due Date:" %}</h2>
-                <input type="text" name="due_date" class="openassessment-submission-due-editor">
+
+            <div class="line_input_wrapper">
+                <label for="openassessment-title-editor">{% trans "Display Name"%}</label>
+                <input type="text" name="title" class="openassessment-title-editor" id="openassessment-title-editor">
             </div>
+            <h2>{% trans "This name appears in the horizontal navigation at the top of the page." %}</h2>
+            <div class="line_input_wrapper" id="submission-date-wrapper">
+                <label for="openassessment-submission-start-editor">{% trans "Submission Start Date:"%} </label>
+                <input type="text" name="start_date" class="openassessment-submission-start-editor openassessment-date-field" id="openassessment-submission-start-editor">
+                <label for="openassessment-submission-due-editor">{% trans "Submission Due Date:" %}</label>
+                <input type="text" name="due_date" class="openassessment-submission-due-editor openassessment-date-field" id="openassessment-submission-due-editor">
+            </div>
+            <hr>
             <div id="oa-settings-assessments">
-                <h2> {% trans "XML for Assessments" %} </h2>
-                <textarea class="openassessment-assessments-editor"></textarea>
+                <div id = "include-student-training-wrapper" class = "openassessment-inclusion-wrapper">
+                    <input type="checkbox" name="has_training" id="include-student-training" checked="1">
+                    <label for="include-student-training">{% trans "Step: Learn to Assess Peers" %}</label>
+                </div>
+                <h1 id="student-training-description" class="openassessment-description">{% trans "When enabled, a step is added where students must read and store instructor provided responses with the goal of matching the instructor's score." %}</h1>
+                <div id="student-training-settings-editor">
+                    <label for="student-training-examples">Student Training Examples</label>
+                    <textarea name="student-training-examples" id="student-training-examples"></textarea>
+                </div>
+
+                <hr>
+
+                <div id="include-peer-assessment-wrapper" class="opeanassessment-inclusion-wrapper">
+                    <input type="checkbox" name="has-peer" id="include-peer-assessment" checked="1">
+                    <label for="include-peer-assessment">Step: Include Peer Assessment</label>
+                </div>
+                <h1 id="peer-assessment-description" class="openassessment-description">{% trans "When enabled, students peer review and score some number of responses using the probelm's rubric." %}</h1>
+                <div id="peer-assessment-settings-editor">
+                    <div class="line-input-wrapper">
+                        <label for="peer-assessment-must-grade">Must Grade</label>
+                        <input id="peer-assessment-must-grade" class="openassessment-number-field" type="number" value="3">
+                        <label for="peer-assessment-graded-by">Must Be Graded By</label>
+                        <input id="peer-assessment-graded-by" class="openassessment-number-field" type="number" value="2">
+                    </div>
+                    <div class="line-input-wrapper">
+                        <label for="peer-assessment-start-date">Start Date</label>
+                        <input id="peer-assessment-start-date" type="text" class="openassessment-date-field">
+                        <label for="peer-assessment-due-date">Due Date</label>
+                        <input id="peer-assessment-due-date" type="text" class="openassessment-date-field">
+                    </div>
+                </div>
+
+                <hr>
+
+                <div id="include-self-assessment-wrapper" class = "opeanassessment-inclusion-wrapper">
+                    <input id="include-self-assessment" type="checkbox" checked="1">
+                    <label for="include-self-assessment">Self Assessment</label>
+                </div>
+                <h1 id="self-assessment-description" class="openassessment-description">{% trans "When enabled, students are asked to self assess their own response using the problem's rubric." %}</h1>
+                <div id="self-assessment-settings-editor">
+                    <div class="line-input-wrapper">
+                        <label for="self-assessment-start-date">Start Date</label>
+                        <input id="self-assessment-start-date" type="text" class="openassessment-date-field">
+                        <label for="self-assessment-due-date">Due Date</label>
+                        <input id="self-assessment-due-date" type="text" class="openassessment-date-field">
+                    </div>
+                </div>
+
+                <hr>
+
+                <div id="include-ai-assessment-wrapper" class = "opeanassessment-inclusion-wrapper">
+                    <input id="include-ai-assessment" type="checkbox" checked="1">
+                    <label for="include-ai-assessment">Example Based Assessment</label>
+                </div>
+                <h1 id="ai-assessment-description" class="openassessment-description">{% trans "When enabled, an algorithm will determine scores by comparing essays to instructor defined example essays."%}</h1>
+                <div id="ai-assessment-settings-editor">
+                    <label for="ai-training-examples">Training Examples</label>
+                    <textarea id="ai-training-examples"></textarea>
+                </div>
+
+                <hr>
             </div>
         </div>
     </div>
@@ -53,4 +116,5 @@
             </li>
         </ul>
     </div>
+
 </div>

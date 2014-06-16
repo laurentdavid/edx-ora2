@@ -450,7 +450,6 @@ def parse_assessments_xml(assessments_root):
 
     return assessments_list
 
-
 def serialize_training_examples(examples, assessment_el):
     """
     Serialize a training example to XML.

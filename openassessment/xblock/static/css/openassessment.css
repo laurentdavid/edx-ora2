@@ -2159,13 +2159,16 @@ hr.divider,
   height: 100%; }
 #openassessment-editor .openassessment-assessments-editor {
   width: 100%; }
-#openassessment-editor #oa-settings-editor-text-fields {
-  float: left;
-  width: 30%; }
 #openassessment-editor #oa-settings-assessments {
-  float: right;
-  width: 70%;
   height: 100%; }
+#openassessment-editor .openassessment-number-field {
+  width: 30px; }
+#openassessment-editor .openassessment-date-field {
+  width: 130px; }
+#openassessment-editor .openassessment-inclusion-wrapper {
+  background-color: #212328;
+  padding: 2.5px 5px;
+  margin: 2.5px 5px; }
 #openassessment-editor .xblock-actions {
   background-color: #e5e5e5;
   position: absolute;
