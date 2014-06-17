@@ -4,7 +4,10 @@ python:
 before_script:
   - export DISPLAY=:99.0
   - sh -e /etc/init.d/xvfb start
-  - "pip install coveralls"
+install:
+  - pip install coveralls
+  - sudo apt-get install python-matplotlib python-numpy python-scipy python-sklearn
+  - pip install -r requirements/ai.txt
 script:
   - "./scripts/test.sh"
   - "./scripts/i18n.sh"
