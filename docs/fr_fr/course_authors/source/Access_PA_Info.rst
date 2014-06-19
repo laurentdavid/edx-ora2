@@ -1,112 +1,112 @@
-.. _PA Accessing Assignment Information:
+.. _PA Accès aux Évaluations et aux Statistiques Étudiants:
 
-##########################################
-Accessing Assignment and Student Metrics
-##########################################
+##########################################################
+Accèder aux Évaluations et aux Statistiques des Étudiants:
+##########################################################
 
-After your open response assessment assignment has been released, you can access information about the number of students in each step of the assignment or the performance of individual students. This information is available in the **Course Staff Information** section at the end of each assignment. To access it, open the assignment in the courseware, scroll to the bottom of the assignment, and then click the black **Course Staff Information** banner.
+Après que votre évaluation à question ouverte (Open Response Assesment) ait été mis en ligne, vous pouvez accéder aux informations concernant le nombre d'étudiant étant à chaque étapes de l'évaluation ou les performances individuelles de chaque étudiant. Cette information est disponible dans la section **Course Staff Information** à la fin de chaque évaluation. Pour y accéder, ouvrez l'évaluation dans le cours, descendez dans la page à la fin de l'évaluation et cliquez sur la bannière noire **Course Staff Information**.
 
 .. image:: /Images/PA_CourseStaffInfo_Collapsed.png
-   :alt: The Course Staff Information banner at the bottom of the peer assessment
+   :alt: La bannière noire 'Course Staff Information' au bas de chaque évaluation
 
-.. _PA View Metrics for Individual Steps:
+.. _PA Voir les Statistiques des Étapes Individuelles:
 
 ************************************************
-View Metrics for Individual Steps
+Voir les Statistiques des Étapes Individuelles
 ************************************************
 
-You can check the number of students who have completed, or are currently working through, the following steps:
+Vous pouvez voir le nombre d'étudiant qui ont complété, ou sont en train de compléter, les étapes suivantes:
 
-* Submitted responses.
-* Completed peer assessments.
-* Waiting to assess responses or receive grades.
-* Completed self assessments.
-* Completed the entire assignment. 
+* Les réponses soumises.
+* Les évaluation par les pairs complétées.
+* Les réponses en attente d'évaluation ou de notation.
+* Les auto-évaluations complétées.
+* Les personnes qui ont complété toutes les étapes. 
 
-To find this information, open the assignment in the courseware, scroll to the bottom of the assignment, and then click **Course Staff Information**.
+Pour trouver cette information, ouvrez l'évaluation dans le cours, descendez dans la page à la fin de l'évaluation et cliquez sur **Course Staff Information**
 
-The **Course Staff Information** section expands, and you can see the number of students who are currently working through (but have not completed) each step of the problem.
+La section **Course Staff Information** se déroule, et vous pouvez voir le nombre d'étudiants qui sont en train de travailler (mais qui n'ont pas complété) chaque étape du problème.
 
 .. image:: /Images/PA_CourseStaffInfo_Expanded.png
-   :alt: The Course Staff Information box expanded, showing problem status
+   :alt: La section Course Staff Information déroulée, montrant l'état du problème.
 
-.. _Access Information for a Specific Student:
+.. _Accéder aux Informations pour un Étudiant Donné:
 
 ***********************************************
-Access Information for a Specific Student
+Accéder aux Informations pour un Étudiant Donné
 ***********************************************
 
-You can access information about an individual student's performance on a peer assessment assignment, including:
+Vous pouvez accéder aux informations à propos des performances d'un étudiant donné sur une évaluation par les pairs, ceci inclus:
 
-* The student's response. 
-* The peer assessments that other students performed on the student's response, including feedback on individual criteria and on the overall response.
-* The peer assessments that the student performed on other students' responses, including feedback on individual criteria and on the overall responses.
-* The student's self assessment.
+* La réponse de l'étudiant
+* Les réponses à l'évaluation par les pairs d'autres étudiant sur la réponse de l'étudiant, ceci inclut les retours sur chaque critère individuel et la réponse globale.
+* L'évaluation par les pairs que l'étudiant a réalisé sur d'autres étudiants, ceci inclut les retours sur les critères individuels et sur les réponses globales.
+* L'auto-évaluation de l'étudiant.
 
-In the following example, you can see the student's response. The response received one peer assessment, and the student completed a peer assessment on one other student's response. The student also completed a self assessment.
+Dans l'example suivant, vous pouvez voir la réponse de l'étudiant. La réponse a reçu une évaluation par les pairs, et l'étudiant a complété une évaluation par les pairs sur un autre étudiant. L'étudiant a aussi complété une auto-évaluation.
 
 .. image:: /Images/PA_SpecificStudent.png
    :width: 500
-   :alt: Report showing information about a student's response
+   :alt: Rapport montrant une réponse d'un étudiant.
 
-For an example that shows a student's response with more assessments, see :ref:`Access Student Information`.
+Pour un example qui montre une réponse d'un étudiant avec plus d'évaluations, voir :ref:`Access Student Information`.
 
-Accessing information about a specific student has two steps:
+Pour accéder aux information d'un étudiant donné, il y a deux étapes:
 
-#. Determine the student's course-specific anonymized ID.
-#. Access information for that student.
+#. Déterminer l'identifiant anonymisé, spécificque au cours, de chaque étudiant.
+#. Accéder aux information de cette étudiant.
 
-=====================================================
-Determine the Student's Course-Specific Anonymized ID
-=====================================================
+=======================================================================
+Déterminer l'identifiant anonymisé, spécificque au cours, de l'étudiant
+=======================================================================
 
-To determine a student's course-specific anonymized ID, you'll need two .csv spreadsheets from the Instructor Dashboard: the grade report (**<course name>_grade_report_<datetime>.csv**) and the list of course-specific anonymized student IDs (**<course name>-anon-ids.csv**).
+Pour déterminer l'identifiant anonymisé, spécificque au cours, de l'étudiant, vous avez besoin de deux feuilles de calcul au format .CSV pris sur les tableaux de bord de l'enseignant: la liste des notes (**<course name>_grade_report_<datetime>.csv**) et la liste des identifiants étudiants anonymisés (**<course name>-anon-ids.csv**).
 
-#. In the LMS, click the **Instructor** tab.
-#. On the Instructor Dashboard, click **Data Download**.
-#. On the **Data Download** page, locate the **Data Download** section, and then click **Get Student Anonymized IDs CSV**. A spreadsheet named **<course name>-anon-ids.csv** automatically downloads. Click to open the spreadsheet.
-#. Scroll down to the **Reports** section, and then click **Generate Grade Report**. 
+#. Dans le LMS cliquez sur le lien **Instructor**
+#. Dans le tableau de bord enseignant cliquez sur **Data Download**
+#. Sur la page de **Data Download**, dans la section **Data Download**, cliquez ensuite sur **Get Student Anonymized IDs CSV**.  Une feuilles de calcul nommée **<course name>-anon-ids.csv** se télécharge automatiquement. Cliquez pour ouvrir la feuille.
+#. Descendez sur la section **Reports**, et ensuite cliquez sur **Generate Grade Report**. 
 
-   The system automatically begins to generate the grade report. When it's finished, a link to the grade report appears in the list below **Reports Available for Download**.
+   Le système commencera à générer les rapports de notes. Quand c'est fini, un lien vers le rapport des notes va apparaître dans la liste ci dessous **Reports Available for Download**.
 
-   .. note:: Generating a grade report for a large class may take several hours.
+   .. note:: Générer un rapport des notes pour un grand nombre d'étudiants inscrits peut prendres plusieurs heures.
 
-5. When the link to the grade report appears in the **Reports Available for Download** list, click the link to open the spreadsheet.
-#. When you have both spreadsheets open, view the **<course name>_grade_report_<datetime>.csv** spreadsheet. Locate the student that you want by username or e-mail address. Make a note of the number in the ID column (column A) for that student. In the following example, the student ID for e-mail address ``amydorrit@example.com`` (username ``lildorrit``) is ``18557``.
+5. Quand le lien sur le rapport des notes apparaît dans la liste **Reports Available for Download** list, cliquez pour ouvrir le document.
+#. Quand vous avez les deux feuilles ouvertes, regardez **<course name>_grade_report_<datetime>.csv** spreadsheet. Localisez l'étudiant dont vous voulez le nom d'utilisateur ou l'adresse e-mail. Prenez note du nombre dans la colonne ID (colonne A) pour cet étudiant. Dans l'example suivant, l'ID de l'étudiant pour l'adresse email  ``amydorrit@example.com`` (nom d'utilisateur ``lildorrit``) est ``18557``.
 
    .. image:: /Images/PA_grade_report.png
       :width: 500
-      :alt: Spreadsheet listing enrolled students and grades
+      :alt: Feuille de calcul listant les étudiants qui sont inscrits et leur notes
 
-7. Go to the **<course name>-anon-ids.csv** spreadsheet, locate the user ID that you noted in step 6, and then copy the value in the "Course Specific Anonymized user ID" column (**column C**) for the user. The value in column C is the student's anonymized user ID for the course. In the following example, the anonymized user ID for student ID ``18557`` is ``ofouw6265242gedud8w82g16qshsid87``.
+7. Allez sur la feuille **<course name>-anon-ids.csv**, localisez l'identifiant utilisateur que vous avez noté dans l'étape 6 et copiez la valeur dans la colonne "Course Specific Anonymized user ID" column (**colonne C**) pour l'utilisateur. La valeur de la colonne C est l'identifiant utilisateur pour ce cours. Dans cet example suivant l'identifiant utilisateur pour l'étudiant  ``18557`` est ``ofouw6265242gedud8w82g16qshsid87``.
 
    .. image:: /Images/PA_anon_ids.png
       :width: 500
-      :alt: Spreadsheet listing students' anonymous user IDs
+      :alt: Feuille de calcul listant les identifants anonymisés des étudiants
 
-   .. note:: Make sure that you don't copy the value in column B. You need the *course-specific* anonymized user ID from **column C**.
+   .. note:: Ne copiez pas les valeurs de la colonne B. Vous avez besoin de l'identifiant anonymisé spécifique au cours de la **colonne C**.
 
-.. _Access Student Information:
+.. _Accéder aux Informations Étudiants:
 
 =======================================
-Access the Student's Information
+Accéder aux Informations Étudiants
 =======================================
+#. Dans le LMS, allez sur l'évaluation par les pairs que vous voulez voir.
 
-#. In the LMS, go to the peer assessment assignment that you want to see.
-#. Scroll to the bottom of the problem, and then click the black **Course Staff Information** banner.
-#. Scroll down to the **Get Student Info** box, paste the student's course-specific anonymized user ID in the box, and then click **Submit**.
+#. Allez jusqu'a la fin du problème, et cliquez sur la bannière noire **Course Staff Information**.
+#. Allez jusqu'a la boite **Get Student Info**, collez l'identifiant anonymisé dans la boite, et cliquez **Submit**.
 
-The student's information appears below the **Get Student Info** box.
+L'information de l'étudiant apparaît en dessous de la boite **Get Student Info**.
 
-The following example shows:
+L'example suivant montre:
 
-* The student's response. 
-* The two peer assessments for the response.
-* The two peer assessments the student completed.
-* The student's self assessment.
+* La réponse de l'étudiant 
+* Les deux réponses aux évaluations par les pairs.
+* Les deux réponses de l'étudiant aux évaluation par les pairs.
+* L'auto-évaluation de l'étudiant.
 
 For a larger view, click the image so that it opens by itself in the browser window, and then click anywhere on the image that opens.
 
 .. image:: /Images/PA_SpecificStudent_long.png
    :width: 250
-   :alt: Report showing information about a student's response
+   :alt: Rapport montrant l'information à propos d'une réponse d'un étudiant.
