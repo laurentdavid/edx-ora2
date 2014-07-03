@@ -1,39 +1,41 @@
 .. _Peer Assessments:
 
-#########################
-Open Response Assessments
-#########################
+#####################################
+ÉVALUATION A REPONSE OUVERTE (ORA)
+#####################################
 
-*****************************************
-Introduction to Open Response Assessments
-*****************************************
+**************************************************
+Introduction aux évaluation à réponse ouvertes
+**************************************************
 
-.. note:: **The open response assessments feature is in limited release.** If you're at an edX consortium university and you plan to include open response assessments in a MOOC, you'll work with your edX project manager (PM) to create assignments.
+.. note:: **Les évaluations deà réponse ouvertes sont en version limitée.** Si vous êtes liés à un consortium universitaire edX et que vous envisagez d'inclure des évaluations à réponses ouvertes dans un MOOC, vous travaillerez avec votre chef de projet edX (PM) pour créer ces évaluations.
 
-Open response assessments allow instructors to assign questions that may not have definite answers. Students submit a response to the question, and then that student and the student's peers compare the response to a rubric that you create.
+Les évaluations à réponse ouvertes permettent aux enseignants de créer des questions qui ne peuvent pas avoir de réponses précises. Les étudiants donnent une réponse à la question, puis l'étudiant et ses pairs peuvent juger la réponse avec une grille d'évaluation que vous créerez.
 
-Open response assessments include peer assessments and self assessments. In peer assessments, students compare their peers' responses to a rubric that you create. In self assessments, students compare their own responses to the rubric.
 
-For more information, see the following sections:
+Les évaluations à réponse ouvertes comprennent les évaluations par les pairs et les auto-évaluations. Dans les évaluations par les pairs, les élèves comparent les réponses de leurs pairs en utilisant une grille d'évaluation que vous créez. Dans les auto-évaluations, les élèves comparent leurs réponses à la grille. 
 
-* :ref:`PA Elements`
-* :ref:`PA Scoring`
-* :ref:`PA Create a PA Problem`
-* :ref:`PA Accessing Assignment Information`
+Pour plus d'informations, consultez les sections suivantes:
 
-.. _PA Elements:
+* :ref:`PA Éléments`
+* :ref:`PA Les notes`
+* :ref:`PA Créer une évalation par les pairs`
+* :ref:`PA Accès aux informations de l'évaluation`
 
-*****************************************
-Elements of an Open Response Assessment
-*****************************************
+.. _PA Éléments:
 
-When you create an open response assessment problem, you include several elements:
+***************************************************
+Les éléments d'une évaluation à réponse ouverte 
+***************************************************
 
-* The number of responses and assessments.
-* One or more assessment types. Assessment types include **student training**, **peer**, and **self**.
-* (Optional) The due dates for each step.
-* The question.
-* The rubric.
+Lorsque vous créez un problème d'évaluation à réponse ouverte, vous ajoutez plusieurs éléments: 
+
+
+* Le nombre de réponses et d'évaluations.
+* Un ou plusieurs types d'évaluation. Types d'évaluation comprennent **Entrainement***, **Pairs** et **auto**.
+* (Facultatif) Les dates d'échéance pour chaque étape.
+* La question.
+* La grille. 
 
 For step-by-step instructions, see :ref:`PA Create a PA Problem`.
 
