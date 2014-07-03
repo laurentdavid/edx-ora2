@@ -4,7 +4,7 @@
 Accèder aux Évaluations et aux Statistiques des Étudiants:
 ##########################################################
 
-Après que votre évaluation à question ouverte (Open Response Assesment) ait été mis en ligne, vous pouvez accéder aux informations concernant le nombre d'étudiant étant à chaque étapes de l'évaluation ou les performances individuelles de chaque étudiant. Cette information est disponible dans la section **Course Staff Information** à la fin de chaque évaluation. Pour y accéder, ouvrez l'évaluation dans le cours, descendez dans la page à la fin de l'évaluation et cliquez sur la bannière noire **Course Staff Information**.
+Une fois que votre évaluation à question ouverte (Open Response Assesment) a été mis en ligne, vous pouvez accéder aux informations concernant le nombre d'étudiant étant à chaque étapes de l'évaluation ou les performances individuelles de chaque étudiant. Cette information est disponible dans la section **Course Staff Information** à la fin de chaque évaluation. Pour y accéder, ouvrez l'évaluation dans le cours, descendez dans la page à la fin de l'évaluation et cliquez sur la bannière noire **Course Staff Information**.
 
 .. image:: /Images/PA_CourseStaffInfo_Collapsed.png
    :alt: La bannière noire 'Course Staff Information' au bas de chaque évaluation
@@ -15,7 +15,7 @@ Après que votre évaluation à question ouverte (Open Response Assesment) ait �
 Voir les Statistiques des Étapes Individuelles
 ************************************************
 
-Vous pouvez voir le nombre d'étudiant qui ont complété, ou sont en train de compléter, les étapes suivantes:
+Vous pouvez voir le nombre d'étudiants qui ont complétés, ou sont en train de compléter, les étapes suivantes:
 
 * Les réponses soumises.
 * Les évaluation par les pairs complétées.
