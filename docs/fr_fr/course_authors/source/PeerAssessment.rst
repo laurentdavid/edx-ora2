@@ -52,16 +52,15 @@ Si toutes les réponses ont reçues des évaluations, mais quelques étudiant n'
 Pour plus d'information, voir :ref:`PA Specify Name and Assessment Types`.
 
 =====================
-Assessment Type
+Types d'évaluations
 =====================
-
-In your problem, you'll also specify the **assessment type or types**. You can see the type and order of the assessments when you look at the problem. In the following example, after students submit a response, they complete peer assessments on other students' responses ("Assess Peers") and then complete self assessments ("Assess Your Response").
+Dans votre problème, vous allez aussi spécifier le **type ou les types d'évaluation**.. Vous pouvez voir le type et l'ordre de l'évaluation quand vous regardez le problème. Dans l'exemple suivant, aprèsq que les étudiants aient soumis une réponse, ils complètent l'évaluation par les pairs sur d'autres réponses d'étudiants ("évaluer les pairs") et ensuite complètent une auto-évaluation ("évaluez votre réponse").
 
 .. image:: /Images/PA_AsmtWithResponse.png
-  :alt: Image of peer assessment with assessment steps and status labeled
+  :alt: Image de l'évaluation par les pairs avec les étapes d'évaluation et les status libéllés
   :width: 600
 
-You can set the assignment to include a peer assessment only, a self assessment only, or both a peer assessment and a self assessment. You can also include a student training assessment that students will complete before they perform peer and self assessments. Student training assessments contain sample responses and scores that you create. They help students learn to grade their peers' responses.
+Vous pouvez régler l'évaluation pour qu'elle inclue une évaluation par les pairs seulement, ou seulement une auto-évaluation, ou une évaluation par les pairs et une auto-évaluation. Vous pouvez inclure une évaluation d'entraînement que les étudiants complèteront avant qu'ils fassent l'évaluation par les pairs et l'auto-évaluation. Les évaluation d'entraînement contiennent des réponses types et des scores que vous crééz. Ils aident les étudiants à apprendre à noter les réponses de leur pairs.
 
 For more information, see :ref:`PA Specify Name and Assessment Types` and :ref:`PA Student Training Assessments`.
 
