@@ -37,19 +37,19 @@ Lorsque vous créez un problème d'évaluation à réponse ouverte, vous ajoutez
 * La question.
 * La grille. 
 
-For step-by-step instructions, see :ref:`PA Create a PA Problem`.
+Pour des instruction pas à pas, voir :ref:`PA Créer une évalation par les pair`.
 
 =======================================
-Number of Responses and Assessments
+Le Nombre de Réponses et d'Évaluations
 =======================================
 
-In the problem code, you'll indicate the **number of responses** each student has to assess and the **number of peer assessments** each response has to receive.
+Dans le code du problème, vous allez indiquer le **nombre de réponses** que chaque étudiant doit évaluer et le **nombre d'évaluations** que chaque réponse  doit avoir.
 
-.. note:: Because some students may submit a response but not complete peer assessments, some responses may not receive the required number of assessments. To increase the chance that all responses will receive enough assessments, you must set the number of responses that students have to assess to be higher than the number of assessments that each response must undergo. For example, if you require each response to receive three assessments, you could require each student to assess five responses.
+.. note:: Du fait que certain étudiants peuvent soumettre une réponse mais pas compléter leur évaluation par les pairs, certaines réponses peuvent ne pas recevoir le nombre requis d'évaluations. Pour augmenter les chances que toutes les réponses recoivent assez d'évaluations, vous devez régler le nombre de réponses que les étudiants ont a évaluer à une valeur supérieure au le nombre d'évaluations que chaque réponse doit avoir. Par exemple, si vous devez avoir 1 réponse pour trois évaluations, vous pouvez demander à ce que chaque étudiant évalue cinq réponses.
 
-If all responses have received assessments, but some students haven't completed the required number of peer assessments, those students can assess responses that other students have already assessed. The student who submitted the response sees the additional peer assessments when he sees his score. However, the additional peer assessments do not count toward the score that the response receives.
+Si toutes les réponses ont reçues des évaluations, mais quelques étudiant n'ont pas complété le nombre requis d'évaluation par les pairs, ces étudiants peuvent évlauer les réponses que d'autres étudiants ont déja évaluées. Les étudiants qui ont soumis une réponse voient les évaluations supplémentaires quand il voit son score. Cependant, les évaluations additionnelles ne comptent pas envers la note finale que la réponse reçoit.
 
-For more information, see :ref:`PA Specify Name and Assessment Types`.
+Pour plus d'information, voir :ref:`PA Specify Name and Assessment Types`.
 
 =====================
 Assessment Type
