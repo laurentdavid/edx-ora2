@@ -10,10 +10,9 @@ Introduction aux évaluation à réponse ouvertes
 
 .. note:: **Les évaluations deà réponse ouvertes sont en version limitée.** Si vous êtes liés à un consortium universitaire edX et que vous envisagez d'inclure des évaluations à réponses ouvertes dans un MOOC, vous travaillerez avec votre chef de projet edX (PM) pour créer ces évaluations.
 
-Les évaluations à réponse ouvertes permettent aux enseignants de créer des questions qui ne peuvent pas avoir de réponses précises. Les étudiants donnent une réponse à la question, puis l'étudiant et ses pairs peuvent juger la réponse avec une grille d'évaluation que vous créerez.
+Les évaluations à réponse ouvertes (ORA) permettent aux enseignants de créer des questions qui ne peuvent pas avoir de réponses exactes. Les étudiants donnent une réponse à la question, puis l'étudiant et ses pairs peuvent juger la réponse grâce à une grille d'évaluation (rubrique) que vous créez.
 
-
-Les évaluations à réponse ouvertes comprennent les évaluations par les pairs et les auto-évaluations. Dans les évaluations par les pairs, les élèves comparent les réponses de leurs pairs en utilisant une grille d'évaluation que vous créez. Dans les auto-évaluations, les élèves comparent leurs réponses à la grille. 
+Les évaluations à réponse ouvertes comprennent les évaluations par les pairs et les auto-évaluations. Dans les évaluations par les pairs, les élèves comparent les réponses de leurs pairs en utilisant une grille d'évaluation. Dans les auto-évaluations, les élèves comparent leurs propres réponses à la grille.uations par les pairs et les auto-évaluations. Dans les évaluations par les pairs, les élèves comparent les réponses de leurs pairs en utilisant une grille d'évaluation que vous créez. Dans les auto-évaluations, les élèves comparent leurs réponses à la grille. 
 
 Pour plus d'informations, consultez les sections suivantes:
 
@@ -45,7 +44,7 @@ Le Nombre de Réponses et d'Évaluations
 
 Dans le code du problème, vous allez indiquer le **nombre de réponses** que chaque étudiant doit évaluer et le **nombre d'évaluations** que chaque réponse  doit avoir.
 
-.. note:: Du fait que certain étudiants peuvent soumettre une réponse mais pas compléter leur évaluation par les pairs, certaines réponses peuvent ne pas recevoir le nombre requis d'évaluations. Pour augmenter les chances que toutes les réponses recoivent assez d'évaluations, vous devez régler le nombre de réponses que les étudiants ont a évaluer à une valeur supérieure au le nombre d'évaluations que chaque réponse doit avoir. Par exemple, si vous devez avoir 1 réponse pour trois évaluations, vous pouvez demander à ce que chaque étudiant évalue cinq réponses.
+.. note:: Du fait que certain étudiants puissent soumettre une réponse mais ne pas compléter leur évaluation par les pairs, certaines réponses peuvent ne pas recevoir le nombre requis d'évaluations. Pour augmenter les chances que toutes les réponses recoivent assez d'évaluations, vous devez régler le nombre de réponses que les étudiants aient à évaluer à une valeur supérieure au le nombre d'évaluations que chaque réponse doit avoir. Par exemple, si vous devez avoir 1 réponse pour trois évaluations, vous pouvez demander à ce que chaque étudiant évalue cinq réponses.
 
 Si toutes les réponses ont reçues des évaluations, mais quelques étudiant n'ont pas complété le nombre requis d'évaluation par les pairs, ces étudiants peuvent évlauer les réponses que d'autres étudiants ont déja évaluées. Les étudiants qui ont soumis une réponse voient les évaluations supplémentaires quand il voit son score. Cependant, les évaluations additionnelles ne comptent pas envers la note finale que la réponse reçoit.
 
